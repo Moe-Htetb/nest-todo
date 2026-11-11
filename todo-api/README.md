@@ -49,6 +49,7 @@ Edit `.env` if your local PostgreSQL credentials differ from the defaults.
 | ------------- | ------------------------------------ | ------------- |
 | `NODE_ENV`    | `development` or `production`       | `development` |
 | `PORT`        | HTTP port the API listens on         | `3000`        |
+| `CORS_ORIGINS` | Comma-separated allowed browser origins (default: reflect origin) | – |
 | `DB_HOST`     | PostgreSQL host                     | `localhost`   |
 | `DB_PORT`     | PostgreSQL port                     | `5432`        |
 | `DB_USERNAME` | PostgreSQL user                      | `postgres`    |
